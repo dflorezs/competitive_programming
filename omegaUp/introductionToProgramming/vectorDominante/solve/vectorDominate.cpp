@@ -25,9 +25,10 @@ int main(){
     cout<<solve(n, a, b);
     return 0;
 }
-
+/*iterate over each element of the first array and validate
+if each of the elements of that array is greater than those of the second array.*/
 bool solve (int n, int *a, int *b){
     int pos = 0;
     while ((pos < n) && (a[pos] > b[pos])) pos++;
-    return true ? pos == n : false;
+    return pos == n;
 }
