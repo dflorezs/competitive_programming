@@ -6,10 +6,10 @@
 int simpleArraySum(int ar_count, int* ar);
 void test();
 
-/*int main(){
+int main(){
     test();
     return 0;
-}*/
+}
 
 
 int simpleArraySum(int ar_count, int* ar){
